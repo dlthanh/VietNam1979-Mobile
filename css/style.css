@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'SFD';
+    src: url('../fonts/SFD-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SFD';
+    src: url('../fonts/SFD-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vn-wrapper {
+    background-color: #f6eee3;
+}
+.vn-cover {
+    padding-top: 100px;
+}
+.vn-img {
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 25px;
+}
+.vn-content .first{
+    margin-top: 50px;
+}
+.vn-content p {
+    font-family: 'SFD', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    padding: 0 15px;
+}
+.vn-content p::before {
+    content: '    ';
+    display: inline-block;
+    width: 20px;
+}
+.vn-content p .capitalize {
+    font-size: 100px;
+    line-height: 0.4;
+    float: left;
+    font-weight: 700;
+    color: #de3629;
+    margin-top: -10px;
+}
+.vn-content .first::before {
+    content: none;
+}
